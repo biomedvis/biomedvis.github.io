@@ -1,6 +1,6 @@
 ---
 layout: default
-bodyClass: page-services-list
+bodyClass: page-school
 ---
 
 <div class="intro">
@@ -20,17 +20,19 @@ bodyClass: page-services-list
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% for service in site.services %}
+    {% for announcement in site.announcements %}
+	{% if announcement.school %}
     <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
+      <div class="announcement announcement-summary">
+        <div class="announcement-content">
+          <h2 class="announcement-title">
+            <a href="{{site.baseurl}}{{ announcement.url }}">{{ announcement.title }}</a>
           </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          <p>{{ announcement.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>
       </div>
     </div>
+	{% endif %}
     {% endfor %}
   </div>
 </div>

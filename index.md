@@ -1,12 +1,11 @@
 ---
-title: Jekyll Serif Theme
+title: BioMedVis Platform
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
 intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
+intro_image_absolute: false
 intro_image_hide_on_mobile: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# BioMedVis Platform
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+The content of this text can be modified in index.md. The image is defined also in the same file.

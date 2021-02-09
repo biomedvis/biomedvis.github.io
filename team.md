@@ -6,6 +6,9 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Team
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+This page can be modified in team.md.
+
+The team memers are added as via separate files under _team folder.
+

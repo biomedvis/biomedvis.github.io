@@ -82,7 +82,7 @@ models:
         name: collections
         fields:
           - type: object
-            name: services
+            name: announcements
             fields:
               - type: boolean
                 name: output
@@ -174,10 +174,10 @@ models:
         name: date
       - type: string
         name: bodyClass
-  service:
+  announcement:
     type: page
-    label: Service
-    layout: service
+    label: Announcements
+    layout: announcement
     fields:
       - type: string
         name: title
@@ -185,12 +185,14 @@ models:
         name: date
       - type: boolean
         name: featured
+      - type: boolean
+        name: school  
       - type: number
         name: weight
-  services:
+  announcements:
     type: page
-    label: Services
-    layout: services
+    label: Announcements
+    layout: announcements
     fields:
       - type: string
         name: title
