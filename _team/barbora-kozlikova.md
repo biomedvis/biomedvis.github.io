@@ -3,9 +3,9 @@ title: "Barbora Kozlikova"
 date: 2020-02-10
 draft: false
 image: "images/team/barbora-kozlikova.jpg"
-jobtitle: "General Chair"
-weburl: "https://www.muni.cz/en/people/60850-barbora-kozlikova"
-weight: 2
+jobtitle: "Organization Committee"
+weburl: "https://www.fi.muni.cz/~xkozlik/"
+weight: 4
 layout: team
 promoted: true
 ---

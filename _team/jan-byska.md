@@ -1,11 +1,11 @@
 ---
-title: "Renata Raidou"
+title: "Jan Byska"
 date: 2020-02-10
 draft: false
-image: "images/team/renata_raidou.jpg"
+image: "images/team/jan-byska.jpg"
 jobtitle: "Organization Committee"
-weburl: "https://www.renataraidou.com"
-weight: 6
+weburl: "https://www.muni.cz/en/people/207879-jan-byska"
+weight: 2
 layout: team
 promoted: true
 ---
@@ -17,3 +17,5 @@ promoted -- if true the team member will be on the team page
 weight -- value defines the members order
 
 weburl -- personal webpage
+
+

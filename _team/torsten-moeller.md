@@ -1,11 +1,11 @@
 ---
-title: "Renata Raidou"
+title: "Torsten M&ouml;ller"
 date: 2020-02-10
 draft: false
-image: "images/team/renata_raidou.jpg"
+image: "images/team/torsten-moeller.jpg"
 jobtitle: "Organization Committee"
-weburl: "https://www.renataraidou.com"
-weight: 6
+weburl: "https://vda.cs.univie.ac.at/team/person/49839/"
+weight: 5
 layout: team
 promoted: true
 ---
@@ -17,3 +17,5 @@ promoted -- if true the team member will be on the team page
 weight -- value defines the members order
 
 weburl -- personal webpage
+
+
