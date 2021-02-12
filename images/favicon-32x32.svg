@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="32px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="favicon-32x32.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Group</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="40.40835"
+     inkscape:cy="4.2075819"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <title
+     id="title2">Group</title>
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#e5261f;stroke-width:2.17731714;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect839"
+     width="29.822681"
+     height="29.822683"
+     x="1.0886586"
+     y="1.0886581" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:14.00093365px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e5261f;fill-opacity:1;stroke:none;stroke-width:0.18751252"
+     x="24.849434"
+     y="-1.5868701"
+     id="text827"><tspan
+       sodipodi:role="line"
+       id="tspan825"
+       x="24.849434"
+       y="11.186605"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;text-align:center;text-anchor:middle;fill:#e5261f;fill-opacity:1;stroke-width:0.18751252" /><tspan
+       sodipodi:role="line"
+       x="24.849434"
+       y="28.687773"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.67335796px;font-family:serif;-inkscape-font-specification:serif;text-align:center;text-anchor:middle;fill:#e5261f;fill-opacity:1;stroke-width:0.18751252"
+       id="tspan836">V</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:43.58053589px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.58366793"
+     x="10.571754"
+     y="19.667452"
+     id="text840"><tspan
+       sodipodi:role="line"
+       id="tspan838"
+       x="10.571754"
+       y="19.667452"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.67335796px;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:0.58366793">M</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:43.58053589px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.58366793"
+     x="3.4267683"
+     y="11.253731"
+     id="text844"><tspan
+       sodipodi:role="line"
+       id="tspan842"
+       x="3.4267683"
+       y="11.253731"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.67335796px;font-family:serif;-inkscape-font-specification:serif;stroke-width:0.58366793">B</tspan></text>
+</svg>
