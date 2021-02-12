@@ -1,6 +1,7 @@
 ---
 title: "Spring School Program"
 date: 2021-02-10
+image: "images/illustrations/program.png"
 featured: true
 school: true
 weight: 2
