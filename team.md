@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: false
 
 # Team
 
-This page can be modified in team.md.
+This is the Organization Committee of the BioMedVis Spring School. 
 
-The team memers are added as via separate files under _team folder.
+#The team members are added as via separate files under _team folder.
 
