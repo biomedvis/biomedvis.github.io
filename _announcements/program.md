@@ -18,3 +18,6 @@ featured -- if true then the announcement will be on the main page
 school -- if true then the announcement will be on the school page
 
 weight -- defines the order of the announcements
+
+
+png of program under images/illustrations/
