@@ -10,7 +10,7 @@ layout: team
 promoted: true
 ---
 
-Associate Professor (Tenure Track) at the University of Bergen, Norway.
+Associate Professor (Tenure Track) at the University of Bergen, Norway and Mohn Medical Imaging and Visualization Centre at the Haukeland University Hospital.
 
 
-Research Interests: 
+Research Interests: medical visualization, multimodal medical imaging data visualization
