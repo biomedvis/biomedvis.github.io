@@ -13,4 +13,4 @@ promoted: true
 Research Associate at Harvard University, USA. 
 
 
-Research Interests: 
+Research Interests: Large-Scale Volume Visualization, Visualization for Neuroscience, Connectomics Vis
