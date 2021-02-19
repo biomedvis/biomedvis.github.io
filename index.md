@@ -6,6 +6,6 @@ intro_image_absolute: false
 intro_image_hide_on_mobile: true
 ---
 
-# BioMedVis Platform
+# BioMedVisSpring
 
-The content of this text can be modified in index.md. The image is defined also in the same file.
+Welcome to BioMedVisSpring, the first Spring School on BioMedical Visualization. This spring school will be organized as an online event from May 17 - 21, 2021.
