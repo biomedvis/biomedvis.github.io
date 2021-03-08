@@ -10,6 +10,6 @@ layout: team
 promoted: true
 ---
 
-Associate Professor at Masaryk University Brno, Czech Republic. 
+Associate Professor at Masaryk University, Brno, Czech Republic. 
 
-Research Interests: 
+Research Interests: biomolecular visualization and analysis
