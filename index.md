@@ -18,5 +18,5 @@ The first BioMedSpring will be free of charge, including access to the education
 
 We are very looking forward to seeing you at the BioMedVis Spring School! 
 
-Johanna Beyer, Jan Byska, Ingrid Hotz, Barbora Kozlikova, Torsten Möller, Renata Raidou, Noeska Smit, and Hsiang-Yun Wu
+Johanna Beyer, Jan Byška, Ingrid Hotz, Barbora Kozliková, Torsten Möller, Renata Raidou, Noeska Smit, and Hsiang-Yun Wu
 
