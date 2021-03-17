@@ -7,17 +7,12 @@ bodyClass: page-home
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12">
+		{% if page.intro_image %}
+           <img alt={{ page.title }} class="intro-image" src="{{ page.intro_image | relative_url }}" />
+		{% endif %}
         {{ content }}
-        {% if site.homepage.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}
     </div>
   </div>
 </div>
@@ -31,19 +26,24 @@ bodyClass: page-home
         <div class="announcement announcement-summary">
           <div class="announcement-content">
             <h2 class="announcement-title">
-              <a href="{{site.baseurl}}{{ announcement.url }}">{{ announcement.title }}</a>
+				{% if announcement.link %} 
+					<a href="{{announcement.link}}">{{ announcement.title }}</a>
+				{% else %}
+					<a href="{{site.baseurl}}{{ announcement.url }}">{{ announcement.title }}</a>
+				{% endif %}
             </h2>
-            <p>{{ announcement.content | markdownify | strip_html | truncate: 100 }}</p>
+            <p>
+		    {% if announcement.description %} 
+				{{ announcement.description | markdownify | strip_html }}
+			{% else %}
+				{{ announcement.content | markdownify | strip_html | truncate: 100 }}
+			{% endif %}
+		    </p>
           </div>
         </div>
       </div>
 	  {% endif %}
       {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{site.baseurl}}/">Edit templates/home.html</a>
-      </div>
     </div>
   </div>
 </div>

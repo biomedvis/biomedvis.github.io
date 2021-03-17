@@ -1,12 +1,12 @@
-[
-  {
-    "title": "Slot#1",
-    "description": "This can be modified under _data/features.json.",
-    "image": "images/features/unknown_feature.svg"
-  },
-  {
-    "title": "Slot#2",
-    "description": "This can be modified under _data/features.json.",
-    "image": "images/features/unknown_feature.svg"
-  }
-]
+#[
+#  {
+#    "title": "Slot#1",
+#    "description": "This can be modified under _data/features.json.",
+#    "image": "images/features/unknown_feature.svg"
+#  },
+#  {
+#    "title": "Slot#2",
+#    "description": "This can be modified under _data/features.json.",
+#    "image": "images/features/unknown_feature.svg"
+#  }
+#]

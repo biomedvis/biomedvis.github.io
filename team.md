@@ -2,12 +2,11 @@
 title: Team
 layout: teams
 permalink: /team/
-intro_image_absolute: true
-intro_image_hide_on_mobile: false
 ---
 
-Team 
+# Organization Team
 
-This is the Organization Committee of the BioMedVis Spring School. 
+The team consists of the following researchers with their specialization in diverse fields of BioMedical visualizations. 
+
 
 
