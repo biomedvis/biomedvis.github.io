@@ -14,4 +14,4 @@ promoted: true
 Assistant Prof. (Tenure Track) at TU Wien, Austria and at the University of Groningen, the Netherlands. 
 
 
-Research Interests: Visual Analytics for BioMedical Applications, P4 Visual Analytics, Comparative and Ensemble Visualization, Uncertainty Visualization, Medical Data Physicalization, Anatomical Edutainement
+Research Interests: Visual Analytics for BioMedical Applications, P4 Visual Analytics, Comparative and Ensemble Visualization, Uncertainty Visualization, Medical Data Physicalization
