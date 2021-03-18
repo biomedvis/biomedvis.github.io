@@ -1,5 +1,5 @@
 ---
-title: "Jan Byska"
+title: "Jan Byška"
 date: 2020-02-10
 draft: false
 image: "images/team/jan-byska.jpg"

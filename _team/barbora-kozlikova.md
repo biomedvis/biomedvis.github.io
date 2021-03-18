@@ -1,5 +1,5 @@
 ---
-title: "Barbora Kozlikova"
+title: "Barbora Kozlíková"
 date: 2020-02-10
 draft: false
 image: "images/team/barbora-kozlikova.jpg"
