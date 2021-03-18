@@ -12,4 +12,4 @@ promoted: true
 
 Post-Doc at TU Wien, Austria. 
 
-Research Interests: 
+Research Interests: Biological data visualization and Network analytics 
