@@ -8,19 +8,19 @@ intro_image_hide_on_mobile: true
 
 # Spring School
 
-We would like to announce and invite the participants of the very first Spring School with a focus on biological and medical visualizations!
+We announce the very first Spring School on Biological and Medical Visualization: the Bio+MedVis Spring School!
 
-The Spring School, held betwen May 17 and 21, 2021, will be fully virtual and you can expect a week full of excellent talks given by leading experts in biological and medical visualizations. The program is enriched by mentoring sessions focused on Ph.D. studies and visualization design, practical tutorials focusing on visualization tools and libraries, and invited talks given by experts from clinical practice and industry.
+The Spring School will be held virtually during the week of May 17--21, 2021. Participants can anticipate a week full of excellent talks, given by leading experts in Biological and Medical Visualization. The program is enriched by mentoring sessions, focusing on Ph.D. studies and visualization design, practical tutorials on visualization tools and libraries, and invited talks by experts from clinical practice and industry.
 
-The spring school is primarily aimed at M.Sc. and Ph.D. students in Computer Science (but not limited to these), who want to learn more about the principles and challenges in visualization, targeting Life Sciences applications. No preliminary knowledge of BioMedical visualization is necessary.
+The Spring School is primarily targeting M.Sc. and Ph.D. students in Computer Science, but anyone who wants to learn more about principles and challenges in visualization for Life Sciences applications is welcome! No preliminary knowledge of Bio+Medical visualization is necessary.
 
-The first BioMedSpring will be free of charge, including access to the educational platform, where all materials will be available after the end of the spring school week. To join us, just fill in the registration form.
+The registration for the Spring School will be free of charge and it will provide access to an educational platform, where all materials will be available, after the end of the educational week. To join us, just fill in the registration form before May 3, 2021. 
 
 We are very looking forward to seeing you at the Bio+MedVis Spring School! 
 
-Johanna Beyer, Jan Byška, Ingrid Hotz, Barbora Kozlíková, Torsten Möller, Renata Raidou, Noeska Smit, and Hsiang-Yun Wu
+The organizers: Johanna Beyer, Jan Byška, Ingrid Hotz, Barbora Kozlíková, Torsten Möller, Renata Raidou, Noeska Smit, and Hsiang-Yun Wu
 
-This event was endorsed by:
+This event is endorsed by EG VCBM and BioVis:
 
 ![BioVis](/images/endorsement/biovis.png)
 ![EG](/images/endorsement/eg.png)
