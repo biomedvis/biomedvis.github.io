@@ -18,10 +18,10 @@ The registration for the Spring School will be **free of charge** and it will pr
 
 We are very looking forward to seeing you at the Bio+MedVis Spring School! 
 
-The [Organizers](https://biomedvis.github.io/team/): 
+[The Organization Team](https://biomedvis.github.io/team/): 
 Johanna Beyer, Jan Byška, Ingrid Hotz, Barbora Kozlíková, Torsten Möller, Renata Raidou, Noeska Smit, and Hsiang-Yun Wu
 
-This event is endorsed by EG VCBM and BioVis:
+This event is endorsed by:
 
 ![BioVis](/images/endorsement/biovis.png)
 ![EG](/images/endorsement/eg.png)
