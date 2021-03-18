@@ -20,3 +20,8 @@ We are very looking forward to seeing you at the Bio+MedVis Spring School!
 
 Johanna Beyer, Jan Byška, Ingrid Hotz, Barbora Kozlíková, Torsten Möller, Renata Raidou, Noeska Smit, and Hsiang-Yun Wu
 
+This event was endorsed by:
+
+![BioVis](/images/endorsement/biovis.png)
+![EG](/images/endorsement/eg.png)
+
