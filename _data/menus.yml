@@ -16,6 +16,9 @@ footer:
   - name: "Home"
     url: "/"
     weight: 1
+  - name: "Registration"
+    url: "https://skjemaker.app.uib.no/view.php?id=10020883"
+    weight: 2  
   - name: "Contact"
     url: "/contact/"
-    weight: 2
+    weight: 3

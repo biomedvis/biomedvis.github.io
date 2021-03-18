@@ -3,7 +3,7 @@ title: "Spring School Speakers"
 date: 2021-02-10
 featured: true
 school: true
-weight: 3
+weight: 2
 layout: announcement
 description: We are proud to have an excellent group of speakers for you.
 ---

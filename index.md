@@ -6,7 +6,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Bio+MedVis Spring School
+# Spring School
 
 We would like to announce and invite the participants of the very first Spring School with a focus on biological and medical visualizations!
 

@@ -3,7 +3,7 @@ title: "Spring School Program"
 date: 2021-02-10
 featured: true
 school: true
-weight: 2
+weight: 1
 layout: announcement
 description: Here you can find the detailed program of the Spring School.
 ---
