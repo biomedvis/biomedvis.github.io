@@ -12,4 +12,4 @@ promoted: true
 
 Assistant Professor at Masaryk University Brno, Czech Republic. 
 
-Research Interests: 
+Research Interests: visualization of biomolecular and time-dependent data
