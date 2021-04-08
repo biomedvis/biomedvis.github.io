@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Bio+MedVis'
+title: 'Bio+Med+Vis'
 
 google_analytics_id: ""
 homepage:
@@ -11,10 +11,10 @@ logo:
   desktop: "images/logo/logo.svg"
   desktop_height: "36px"
 footer:
-  copyright_text: '© Bio+MedVis Platform'
+  copyright_text: '© Bio+Med+Vis Platform'
 
 seo:
-  meta_og_title: "Bio+MedVis"
+  meta_og_title: "Bio+Med+Vis"
   meta_og_type: "website"
   meta_og_url: ""
   meta_og_image: ""
