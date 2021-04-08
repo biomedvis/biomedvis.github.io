@@ -10,7 +10,7 @@ layout: team
 promoted: true
 ---
 
-Full Professor at Linkoping University, Sweden.
+Professor at Linkoping University, Sweden.
 
 
 Research Interests: 
