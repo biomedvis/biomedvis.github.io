@@ -14,6 +14,7 @@ description: We are proud to have an excellent group of speakers for you.
 * Johanna Beyer, Harvard University, USA (Vis in Neuroscience)
 * Katja Bühler, VRVis, Vienna, Austria (Multimodal Visualization)
 * Jan Byska, Masaryk University, Brno, Czech Republic (Biomedical Data)
+* Ana Crisan, Tableau Research (Healthcare Visualization)
 * Laura Garrison, University of Bergen, Norway (Vis and Communication)
 * Nils Gehlenborg, Harvard University, USA (Single-cell Omics Data Visualization)
 * Eduard Gröller, TU Wien, Austria (Mentoring PhDs)
