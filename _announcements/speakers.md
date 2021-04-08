@@ -22,6 +22,7 @@ description: We are proud to have an excellent group of speakers for you.
 * Martin Krzywinski, Genome Sciences Centre, Vancouver, Canada (Mentoring Visualization Designs)
 * Silvia Miksch, TU Wien, Austria (Visualization of BioMedical Time-varying Data)
 * Peter Mindek, Nanographics GmbH, Vienna, Austria (Rendering Big Molecular Environments)
+* Gabriel Mistelbauer, University of Magdeburg, Germany (Vascular Visualization)
 * Vijay Natarajan, IISc Bangalore, India (Flow Visualization)
 * Michael Oppermann,University of British Columbia, Vancouver, Canada (D3 tutorial)
 * Bernhard Preim, University of Magdeburg, Germany (Evaluation)
