@@ -1,6 +1,9 @@
 main:
   - name: "Spring School"
     url: "/school/"
+    weight: 1
+  - name: "Program"
+    url: "/announcements/program/"
     weight: 2
   - name: "Team"
     url: "/team/"
