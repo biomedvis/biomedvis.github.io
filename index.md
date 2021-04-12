@@ -23,6 +23,10 @@ Johanna Beyer, Jan Byška, Ingrid Hotz, Barbora Kozlíková, Torsten Möller, Re
 
 This event is endorsed by:
 
+<a href="http://biovis.net/" target="_blank">
 ![BioVis](/images/endorsement/biovis.png)
+</a>
+<a href="http://vcbm.org/" target="_blank">
 ![EG](/images/endorsement/eg.png)
+</a>
 
