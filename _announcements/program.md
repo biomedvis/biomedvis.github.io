@@ -10,4 +10,4 @@ description: Here you can find the detailed program of the Spring School.
 
 This is the preliminary program of the Spring School. The order of individual topics can still change, according to the availability of our speakers. 
 
-![Spring School Program](/images/school/program.jpg)
+![Spring School Program](/images/school/program.png)
