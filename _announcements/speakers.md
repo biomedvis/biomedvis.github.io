@@ -9,7 +9,7 @@ description: We are proud to have an excellent group of speakers for you.
 ---
 
 ## The following list contains the already confirmed speakers of the Spring School. The topic of their talk is listed in brackets.
-* Marc Baaden, Institute of Physical and Chemical Biology (Unity tutorial)
+* Marc Baaden, CNRS (Unity tutorial)
 * Drew Berry, Walter and Eliza Hall Institute of Medical Research, Melbourne, Australia (Vis and Communication)
 * Johanna Beyer, Harvard University, USA (Vis in Neuroscience)
 * Katja Bühler, VRVis, Vienna, Austria (Multimodal Visualization)
@@ -26,7 +26,7 @@ description: We are proud to have an excellent group of speakers for you.
 * Michael Krone, University of Tuebingen (Volume Rendering)
 * Martin Krzywinski, Genome Sciences Centre, Vancouver, Canada (Mentoring Visualization Designs)
 * Claes Lundstrom, SECTRA (Industry talk)
-* Xavier Martinez, Institute of Physical and Chemical Biology (Unity tutorial)
+* Xavier Martinez, CNRS (Unity tutorial)
 * Silvia Miksch, TU Wien, Austria (Visualization of BioMedical Time-varying Data)
 * Peter Mindek, Nanographics GmbH, Vienna, Austria (Rendering Big Molecular Environments)
 * Gabriel Mistelbauer, University of Magdeburg, Germany (Vascular Visualization)
