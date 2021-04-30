@@ -28,7 +28,6 @@ description: We are proud to have an excellent group of speakers for you.
 * Martin Krzywinski, Genome Sciences Centre, Vancouver, Canada (Mentoring Visualization Designs)
 * Alex Lex, SCI Institute, School of Computing, University of Utah, USA (Omics)
 * Claes Lundstrom, SECTRA, Sweden (Industry talk)
-* Xavier Martinez, CNRS, Paris, France (Unity tutorial)
 * Silvia Miksch, TU Wien, Austria (Visualization of BioMedical Time-varying Data)
 * Peter Mindek, Nanographics GmbH, Vienna, Austria (Rendering Big Molecular Environments)
 * Gabriel Mistelbauer, University of Magdeburg, Germany (Vascular Visualization)
