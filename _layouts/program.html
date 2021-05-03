@@ -1,0 +1,222 @@
+---
+layout: default
+---
+
+<style>
+.content .legend{
+	margin-bottom:-20px;
+	padding:0px;
+}
+.content table th.cet{
+	width:30px;
+}
+.content table th.day{
+	width:20%;
+}
+.content table th, 
+.content table td {
+	border:1px solid #202020;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	text-align:center;
+	vertical-align:middle;
+}
+.table-program th .weekday, 
+.table-program th .date {
+	display:block;
+}
+
+.table-program .slot-size-1{
+	height: 30px;
+}
+.table-program .slot-size-2{
+	height: 60px;
+}
+.table-program .slot-size-3{
+	height: 90px;
+}
+.table-program .slot-size-4{
+	height: 120px;
+}
+.table-program .talk-content{
+	vertical-align: middle;
+	text-align: center;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	display:table;
+	background-repeat: no-repeat;
+}
+.table-program .icon{
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+.table-program .spaker-info{
+	height:100%;
+	width:100%;
+	display:table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.table-program .title{
+	font-size:12px;
+}
+
+.program .day{
+	font-size:25px;
+	color:gray;
+	margin-bottom:10px;
+}
+.program .speaker{
+	background:#EEE;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+}
+.program .speaker .title{
+	font-size:18px;
+	color:#E5261F;
+	margin-bottom:10px;
+	font-weight: bold;
+}
+.program .speaker .name{
+	margin-bottom:10px;
+	font-weight: bold;
+}
+.program .speaker .details{
+	overflow:auto;
+	text-align:top;
+}
+.program .speaker .details .photo{
+	width: 100px;
+	float: left;
+	margin: 0px;
+}
+.program .speaker .details .bio{
+	margin-left:100px;
+	padding-left:25px;
+}
+</style>
+
+<!-- assign the list of days in the week -->
+{% assign days = "Monday,Tuesday,Wednesday,Thursday,Friday" | split : "," %}
+
+<!-- sorts the program based on date and time -->
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <div class="service service-single">
+        <h1 class="title">{{page.title}}</h1>
+        <div class="content">	
+			{{content}}
+			<div class="legend">
+				<img src = "/images/program/dot.png"> Icon Decription
+				<img src = "/images/program/hat.png"> Icon Decription
+			</div>
+			<div class="table-responsive">
+				<table class="table table-program">
+				<tr>
+					<th class="cet">CET</div>
+					<th class="day">
+						<span class="weekday">Monday,</span> 
+						<span class="date">17th May 2021</span>
+					</th>
+					<th class="day">
+						<span class="weekday">Tuesday,</span>
+						<span class="date">18th May 2021</span></th>
+					<th class="day">
+						<span class="weekday">Wednesday,</span>
+						<span class="date">19th May 2021</span>
+					</th>
+					<th class="day">
+						<span class="weekday">Thursday,</span>
+						<span class="date">20th May 2021</span>
+					</th>
+					<th class="day">
+						<span class="weekday">Friday,</span>
+						<span class="date">21th May 2021</span>
+					</th>
+				</tr>	
+				<!-- generate program based on the 15 minutes intervals -->
+				{% for hour in (14..19) %}
+					{% for min in (0..3) %}
+						{% assign quater = min | times : 15 %}
+						{% if min == 0 %}
+							{% assign quater = '00' %}
+						{% endif %}
+						{% assign slot = hour | append: ':' | append : quater %}
+						
+						<!-- creates each line in the program with 15min intervals -->
+						<tr>
+							<td class="time">{{slot}}</td>
+							{% for day_in_week in days%}
+							{% assign data = site.data.program | where: "day", day_in_week | where: "start", slot %}
+							{% if data.size > 0 %}			
+								{% assign speaker = data[0] %}
+							
+								<!-- computes the number of 15min slots the lecture will take -->
+								{% assign time_start = speaker.start | split : ":" %}
+								{% assign time_end = speaker.end | split : ":" %}
+								{% assign hours = time_end[0] | minus : time_start[0] %}
+								{% assign minutes = time_end[1] | minus : time_start[1] %}
+								{% assign lenght = hours | times : 60 | plus : minutes | divided_by : 15 %}
+							
+								<!-- generates the lecture slot by merging multiple 15min slots -->
+								<td rowspan="{{lenght}}" class="slot-size-{{lenght}}">
+									<div class="talk-content" style="background-image: url(/images/program/{{speaker.icon}});">
+										<div class="spaker-info">
+											<div class="title">{{speaker.title}}</div> 
+											<div class="speaker">
+											{% for speaker in data %}
+												{% if forloop.index0 > 0 %} & {% endif %}
+												<a href="#{{speaker.name}}">{{speaker.name}}</a>
+											{% endfor %}
+											</div>
+										</div>	
+									</div>
+								</td>
+							{% endif %}
+							{% endfor %}
+						</tr>
+						
+						
+					{% endfor %}
+				{% endfor %}
+				</table>
+			</div>
+			
+			<!-- the detailed program -->
+			<div class="program">
+			{% for day_in_week in days%}
+				{% assign data = site.data.program | where: "day", day_in_week | sort: "start" %}
+				{% for speaker in data %}
+					{% if forloop.first %}
+					<div class="day">{{ day_in_week }}</div>
+					{% endif %}
+						
+					<div class="speaker" id="{{speaker.name}}">
+						<div class="first-line">
+							<span class="slot">{{ speaker.start }} - {{ speaker.end }}</span>
+							<span class="title">{{ speaker.title }}</span><br/>
+						</div>
+						{% if speaker.name %} 
+						<div class="name">Speaker: {{ speaker.name }}</div>
+						{% endif %}
+						
+						{% if speaker.bio and speaker.photo %}
+						<div class="details">
+							<img class="photo" src="/images/speakers/{{ speaker.photo }}" atl="{{ speaker.name }}" />
+							<div class="bio">{{ speaker.bio }}</div>
+						</div>
+						{% endif %}
+					</div> 
+				{% endfor %}
+			{% endfor %}	
+			</div>
+		</div>
+      </div>
+    </div>
+  </div>
+</div>
