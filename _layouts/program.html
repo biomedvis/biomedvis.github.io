@@ -3,9 +3,9 @@ layout: default
 ---
 
 <style>
-.content .legend{
-	margin-bottom:-20px;
+.content table{
 	padding:0px;
+	margin:0px;
 }
 .content table th.cet{
 	width:30px;
@@ -32,7 +32,6 @@ layout: default
 .table-program th .date {
 	display:block;
 }
-
 .table-program .slot-size-1{
 	height: 30px;
 }
@@ -54,6 +53,7 @@ layout: default
 	display:table;
 	background-repeat: no-repeat;
 	background-position:bottom left;
+	background-size:20px;
 }
 .table-program .icon{
 	position: relative;
@@ -69,6 +69,10 @@ layout: default
 }
 .table-program .title{
 	font-size:12px;
+}
+.content .legend{
+	text-align:center;
+	width:100%;
 }
 
 .program .day{
@@ -118,10 +122,6 @@ layout: default
         <h1 class="title">{{page.title}}</h1>
         <div class="content">	
 			{{content}}
-			<div class="legend">
-				<img src = "/images/program/dot.png"> Icon Decription
-				<img src = "/images/program/hat.png"> Icon Decription
-			</div>
 			<div class="table-responsive">
 				<table class="table table-program">
 				<tr>
@@ -187,11 +187,12 @@ layout: default
 							{% endif %}
 							{% endfor %}
 						</tr>
-						
-						
 					{% endfor %}
 				{% endfor %}
 				</table>
+				<div class="legend">
+					<img src = "/images/program/legend.png" />
+				</div>
 			</div>
 			
 			<!-- the detailed program -->
