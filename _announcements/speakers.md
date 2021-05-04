@@ -6,6 +6,7 @@ school: true
 weight: 2
 layout: announcement
 description: We are proud to have an excellent group of speakers for you.
+link: http://biomedvis.github.io/announcements/program/#speakers
 ---
 
 ## The following list contains the already confirmed speakers of the Spring School. The topic of their talk is listed in brackets.

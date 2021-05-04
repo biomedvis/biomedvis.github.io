@@ -196,7 +196,7 @@ layout: default
 			</div>
 			
 			<!-- the detailed program -->
-			<div class="program">
+			<div class="program" id="speakers">
 			{% for day_in_week in days%}
 				{% assign data = site.data.program | where: "day", day_in_week | sort: "start" %}
 				{% for speaker in data %}
