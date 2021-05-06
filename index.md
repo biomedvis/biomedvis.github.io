@@ -30,5 +30,5 @@ This event is endorsed by:
 ![EG](/images/endorsement/eg.png)
 </a>
 <a href="http://www.mmiv.no/" target="_blank">
-![EG](/images/endorsement/mmiv.png)
+![MMIV](/images/endorsement/mmivs.png)
 </a>
