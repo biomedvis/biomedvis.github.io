@@ -29,4 +29,6 @@ This event is endorsed by:
 <a href="http://vcbm.org/" target="_blank">
 ![EG](/images/endorsement/eg.png)
 </a>
-
+<a href="http://www.mmiv.no/" target="_blank">
+![EG](/images/endorsement/mmiv.png)
+</a>
