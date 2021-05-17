@@ -178,7 +178,7 @@ layout: default
 											<div class="speaker">
 											{% for speaker in data %}
 												{% if forloop.index0 > 0 %} & {% endif %}
-												<a href="#{{speaker.name}}">{{speaker.name}}</a>
+												<a href="#{{speaker.name}}_{{speaker.title | url_encode}}">{{speaker.name}}</a>
 											{% endfor %}
 											</div>
 										</div>	
@@ -204,7 +204,7 @@ layout: default
 					<div class="day">{{ day_in_week }}</div>
 					{% endif %}
 						
-					<div class="speaker" id="{{speaker.name}}">
+					<div class="speaker" id="{{speaker.name}}_{{speaker.title | url_encode}}">
 						<div class="first-line">
 							<span class="slot">{{ speaker.start }} - {{ speaker.end }}</span>
 							<span class="title">{{ speaker.title }}</span><br/>
