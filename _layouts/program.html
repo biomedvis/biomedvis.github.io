@@ -125,7 +125,7 @@ layout: default
 			<div class="table-responsive">
 				<table class="table table-program">
 				<tr>
-					<th class="cet">CET</div>
+					<th class="cet">CEST</div>
 					<th class="day">
 						<span class="weekday">Monday,</span> 
 						<span class="date">17th May 2021</span>
@@ -178,7 +178,11 @@ layout: default
 											<div class="speaker">
 											{% for speaker in data %}
 												{% if forloop.index0 > 0 %} & {% endif %}
+												{% if speaker.name == "Noeska Smit" %}
+												<a href="#{{speaker.name}}_{{speaker.day | downcase}}">{{speaker.name}}</a>
+												{% else %}
 												<a href="#{{speaker.name}}">{{speaker.name}}</a>
+                                                                                                {% endif %}
 											{% endfor %}
 											</div>
 										</div>	
@@ -203,8 +207,12 @@ layout: default
 					{% if forloop.first %}
 					<div class="day">{{ day_in_week }}</div>
 					{% endif %}
-						
+					
+					{% if speaker.name == "Noeska Smit" %}
+					<div class="speaker" id="{{speaker.name}}_{{speaker.day | downcase}}">
+					{% else %}
 					<div class="speaker" id="{{speaker.name}}">
+                                        {% endif %}
 						<div class="first-line">
 							<span class="slot">{{ speaker.start }} - {{ speaker.end }}</span>
 							<span class="title">{{ speaker.title }}</span><br/>
