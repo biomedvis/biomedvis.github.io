@@ -109,6 +109,10 @@ layout: default
 	margin-left:100px;
 	padding-left:25px;
 }
+.program .video{
+	padding-top:10px;
+	text-align:center;
+}
 </style>
 
 <!-- assign the list of days in the week -->
@@ -225,6 +229,12 @@ layout: default
 						<div class="details">
 							<img class="photo" src="/images/speakers/{{ speaker.photo }}" atl="{{ speaker.name }}" />
 							<div class="bio">{{ speaker.bio }}</div>
+						</div>
+						{% endif %}
+						
+						{% if speaker.video %}
+						<div class="video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/{{speaker.video}}" title="{{speaker.title}} by {{speaker.name}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 						{% endif %}
 					</div> 
